@@ -1,0 +1,45 @@
+header {
+	font-family: fantasy;
+	font-size: 50px;
+	text-align: center;
+	color: yellow;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 30px;
+	text-align: center;
+	color: yellow;
+	line-height: 40px;
+}
+
+p {
+	padding:15px;
+}
+
+body {
+	font-family: courier;
+	font-size: 15px;
+	color: lightgreen;
+	background-color: black;
+	line-height: 15px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+section {
+
+}
+
+.class1 {
+	text-align: left;
+}
+.class2 {
+	text-align: right;
+}
+.class3 {
+	text-align: left;
+}
+
