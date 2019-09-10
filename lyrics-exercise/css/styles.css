@@ -1,0 +1,52 @@
+header {
+	font-family: lucida console;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+}
+
+h1 {
+	font-family: lucida console;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	line-height: 60px;
+	padding-bottom: 60px;
+}
+
+span {
+	background-color: black;
+}
+
+p {
+	padding:25px;
+}
+
+body {
+	text-align: center;
+	font-family: lucida console;
+	font-size: 30px;
+	color: white;
+	line-height: 40px;
+	background-color: #5cb6e7;
+}
+
+footer {
+	text-align: center;
+	padding-top: 140px;
+}
+
+#eyeimage {
+	width:300px;
+	position: fixed;
+	bottom:50px;
+	right:50px;
+}
+
+#eyeimage2 {
+	width:300px;
+	position: fixed;
+	bottom:50px;
+	left:50px;
+}
