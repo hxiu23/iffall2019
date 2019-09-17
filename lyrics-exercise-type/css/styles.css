@@ -1,0 +1,88 @@
+header {
+	font-family:  'Bree Serif', serif;
+	font-size: 100px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 40px;
+	letter-spacing: .5em;
+
+}
+
+h1 {
+	font-family:  'Bree Serif', serif;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	line-height: 60px;
+	background-color: black;
+	padding: 20px;
+	letter-spacing: .05em;
+}
+
+.versehead {
+	background-color: black;
+	color: lightsalmon;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.verse {
+	background-color: lightsalmon;
+}
+
+.prechorushead {
+	background-color: black;
+	color: salmon;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.prechorus {
+	background-color: salmon;
+}
+
+.chorushead {
+	background-color: black;
+	color: indianred;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.chorus {
+	background-color: indianred;
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+body {
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+	color: white;
+	line-height: 40px;
+	background-color: #5cb6e7;
+}
+
+footer {
+	font-size: 18px;
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 140px;
+}
+
+#eyeimage {
+	width:300px;
+	position: fixed;
+	bottom:50px;
+	right:50px;
+}
+
+#eyeimage2 {
+	width:300px;
+	position: fixed;
+	bottom:50px;
+	left:50px;
+}
