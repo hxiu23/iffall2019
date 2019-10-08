@@ -1,0 +1,44 @@
+.firstblock {
+	float: right;
+	position: relative;
+}
+
+.second {
+	position: relative;
+}
+
+.secondblock {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.thirdblock {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: green;
+	z-index: 2;
+}
+
+.fourth {
+	position: relative;
+}
+
+.fourthblock1 {
+	background-color: red;
+	position: absolute;
+	z-index: 1;
+	margin: auto;
+	top: 200px;
+	left: 330px;
+
+}
+
+.fourthblock2 {
+	background-color: black;
+	position: absolute;
+	margin: auto;
+	top: 210px;
+	left: 340px;
+}
