@@ -1,0 +1,374 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+a#btn_harleydavidson {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 5px 20px 3px 20px;
+	background-color: #000000;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Francois One', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a#btn_harleydavidson:hover {
+	color: #FF0404;
+}
+
+a#btn_samsung {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin: 30px 0 0 0;
+	background-color: #FDFDFE;
+	border: 3px solid;
+	padding: 80px 0 0 0;
+	color: #6262D4;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a#btn_samsung:hover {
+	display: inline-block;
+	height: 220px;
+	width: 220px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin: 20px 0 0 0;
+	padding: 90px 0 0 0;
+	background-color: #FDFDFE;
+	border: 3px solid;
+	transition: all 0.3s;
+}
+
+a#btn_nike {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 90px;
+	font-size: 40px;
+	font-family: 'Francois One', sans-serif;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a#btn_nike:hover {
+	transform: scale(1.4);
+	font-style: italic; 
+	transition: all 0.3s;
+	text-shadow: -15px 15px 0px rgba(255,157,10,1.0);
+}
+
+a#btn_bissingers {
+	display: inline-block;
+	margin:auto;
+	margin-top: 80px;
+	padding: 20px 30px 30px 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #8E5F00;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+}
+
+a#btn_bissingers:hover {
+	color: #D69E2F;
+	text-shadow: -3px 3px 0px rgba(52,35,3,1.0), -2px 2px 0px rgba(52,35,3,1.0), -1px 1px 0px rgba(52,35,3,1.0);
+	background-color: #fff;
+	border: 3px solid;
+}
+
+a#btn_instagram {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	margin: auto;
+	margin-top: 70px;
+	padding-top: 14px;
+	text-align: center;
+	font-size: 60px;
+	color: #9D00BD;
+}
+
+a#btn_instagram:hover {
+	color: #fff;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff26+0,d24b5a+50,ba2737+51,b796ff+100 */
+background: #ffff26; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffff26 0%, #d24b5a 50%, #ba2737 51%, #b796ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffff26 0%,#d24b5a 50%,#ba2737 51%,#b796ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffff26 0%,#d24b5a 50%,#ba2737 51%,#b796ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff26', endColorstr='#b796ff',GradientType=0 ); /* IE6-9 */
+;
+}
+
+a#btn_coke {
+	display: block;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+a#btn_coke:hover {
+	transform: scale(0.8);
+	transition: all 0.5s;
+}
+
+
+a#btn_craig {
+	display: inline-block;
+	margin:auto;
+	margin-top: 70px;
+	padding: 10px 16px 15px 16px;
+	background-color: #6F8EE3;
+	border: 5px solid;
+	color: #fff;
+	font-size: 50px;
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+
+a#btn_craig:hover {
+	background-color: #fff;
+	color: #6F8EE3;
+	text-decoration: underline;
+}
+
+a#btn_kors {
+	display: inline-block;
+	margin:auto;
+	margin-top: 90px;
+	padding: 15px 16px 15px 16px;
+	background-color: #fff;
+	color: #000001;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+a#btn_kors:hover {
+	background-color: #fff;
+	text-shadow: 0px 30px 0px rgba(0,0,1,1.0), 0px -30px 0px rgba(0,0,1,1.0);
+}
+
+
+a#btn_colorrun {
+	display: inline-block;
+	margin:auto;
+	margin-top: 30px;
+	border-radius: 20%;
+	padding: 20px 16px 15px 16px;
+	background-color: #FE00AA;
+	color: #37CAFF;
+	font-family: 'Francois One', sans-serif;
+	font-size: 40px;
+	text-align: left;
+	text-decoration: none;
+	line-height: 1.0;
+	text-transform: uppercase;
+}
+
+a#btn_colorrun:hover {
+	background-color: #37CAFF;
+	color: #FFE437;
+	box-shadow: -10px 10px 0px #FE00AA;
+	text-shadow: -8px 8px 0px #FE00AA, -7px 7px 0px #FE00AA,-6px 6px 0px #FE00AA, -5px 5px 0px #FE00AA;
+}
+
+
+a#btn_sardella {
+	display: inline-block;
+	margin:auto;
+	margin-top: 40px;
+	padding: 20px 16px 15px 16px;
+	background-color: #fff;
+	color: #00DDFF;
+	text-shadow: -5px 5px 0px #076AC1, -4px 4px 0px #076AC1, -3px 3px 0px #076AC1, -2px 2px 0px #076AC1, -1px 1px 0px #076AC1;
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a#btn_sardella:hover {
+	color: #fff;
+	transform: scale(1.2);
+}
+
+a#btn_ideo {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px 20px 20px 0px;
+	background-color: #fff;
+	color: #000001;
+	font-family: 'Changa', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+a#btn_ideo:hover {
+	background-color: #000001;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+a#btn_kitten {
+	display: inline-block;
+	height: 170px;
+	width: 170px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin-top: 30px;
+	padding: 55px 16px 15px 16px;
+	background-color: #000001;
+	color: #19EBBA;
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	line-height: 1.0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a#btn_kitten:hover {
+	color: #fff;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff600+0,ff1a00+100 */
+background: #fff600; /* Old browsers */
+background: -moz-linear-gradient(top,  #fff600 0%, #ff1a00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fff600 0%,#ff1a00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fff600 0%,#ff1a00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff600', endColorstr='#ff1a00',GradientType=0 ); /* IE6-9 */
+;
+	text-shadow: -5px 5px 0px #000001, -4px 4px 0px #000001, -3px 3px 0px #000001, -2px 2px 0px #000001, -1px 1px 0px #000001;
+	transform: scale(1.4);
+	box-shadow: -5px 5px 0px #000001;
+}
+
+a#btn_flight {
+	display: inline-block;
+	margin:auto;
+	margin-top: 50px;
+	padding: 20px 16px 15px 16px;
+	background-color: #fff;
+	border: 3px solid;
+	color: #3C79BE;
+	font-family: 'Changa', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+a#btn_flight:hover {
+	color: #fff;
+	background-color: #3C79BE;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+a#btn_navy {
+	display: inline-block;
+	margin:auto;
+	margin-top: 50px;
+	padding: 20px 20px 20px 20px;
+	border-radius: 10%;
+	background-color: #CE4F21;
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	letter-spacing: .1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a#btn_navy:hover {
+	color: #fff;
+	background-color: #2B5296;
+	border-radius: 50%;
+}
+
+a#btn_electra {
+	display: inline-block;
+	margin-right: 90px;
+	margin-top: 30px;
+	padding: 10px 10px 0px 10px;
+	color: #75C4DC;
+	font-family: 'Yellowtail', cursive;
+	font-size: 60px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a#btn_electra:hover {
+	transform: rotate(360deg);
+	transition: all 0.5s;
+}
+
+a#btn_bike {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 0px 10px 10px 10px;
+	color: #75C4DC;
+	font-family: 'Yellowtail', cursive;
+	font-size: 60px;
+	letter-spacing: .1em;
+	text-align: center;
+	text-decoration: none;
+}
+
+a#btn_bike:hover {
+	transform: rotate(360deg);
+	transition: all 0.5s;
+}
