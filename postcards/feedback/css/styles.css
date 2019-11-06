@@ -1,0 +1,11 @@
+/**background position
+background size - controls how backgground image is sized**/
+
+body {
+
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 100px;
+
+}
