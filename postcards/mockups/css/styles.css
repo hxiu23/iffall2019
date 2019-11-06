@@ -1,0 +1,13 @@
+body {
+
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 100px;
+
+}
+
+img {
+	width: 30%;
+	padding: 10px;
+}
